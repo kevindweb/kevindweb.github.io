@@ -215,13 +215,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .code {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/security.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/rsz_security.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .about {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/edm.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/rsz_edm.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,6 +305,15 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
     }
+    .secondaryPic:hover .caption{
+        background-color: black;
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem);
+    }
+}
+
+.secondaryPic .caption{
+    background-color: rgba(29, 128, 159, 0.9);
 }
 
 footer.footer {
